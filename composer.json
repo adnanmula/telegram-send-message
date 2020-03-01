@@ -1,5 +1,5 @@
 {
-  "name": "adnanDS/telegram-send-message",
+  "name": "demigrantsoft/telegram-send-message",
   "description": "Send telegram messages, nothing more.",
   "license": "MIT",
   "type": "library",
