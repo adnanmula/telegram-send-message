@@ -1,0 +1,22 @@
+{
+  "name": "adnanDS/telegram-send-message",
+  "description": "Send telegram messages, nothing more.",
+  "license": "MIT",
+  "type": "library",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Adnan Mula",
+      "email": "adnan.mula.bakkar@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-curl":"*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DemigrantSoft\\Telegram\\SendMessage\\": "src/"
+    }
+  }
+}
