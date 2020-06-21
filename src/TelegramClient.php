@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace DemigrantSoft\Telegram\SendMessage;
+namespace AdnanMula\Telegram\SendMessage;
 
 final class TelegramClient
 {
