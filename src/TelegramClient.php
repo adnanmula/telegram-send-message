@@ -16,7 +16,7 @@ final class TelegramClient
         $this->botToken = $botToken;
     }
 
-    public function sendMessage(string $chatId, string $text, string $parseMode = self::PARSE_MODE_MARKDOWN)
+    public function sendMessage(string $chatId, string $text, string $parseMode = self::PARSE_MODE_MARKDOWN): void
     {
         $url = self::TELEGRAM_URL . '/bot' . $this->botToken . '/sendMessage';
 
@@ -33,14 +33,9 @@ final class TelegramClient
 
         \curl_setopt($c, CURLOPT_POST, 1);
         \curl_setopt($c, CURLOPT_POSTFIELDS, $params);
-
         \curl_setopt($c, CURLOPT_SSL_VERIFYPEER, false);
-        $result = \curl_exec($c);
 
-        //TODO: log errors
-
+        \curl_exec($c);
         \curl_close($c);
-
-        return $result;
     }
 }
