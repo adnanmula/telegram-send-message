@@ -3,7 +3,7 @@
   "description": "Send telegram messages, nothing more.",
   "license": "MIT",
   "type": "library",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "authors": [
     {
       "name": "Adnan Alfonso Mula Bakkar",
