@@ -1,17 +1,17 @@
 {
-  "name": "demigrantsoft/telegram-send-message",
+  "name": "adnanmula/telegram-send-message",
   "description": "Send telegram messages, nothing more.",
   "license": "MIT",
   "type": "library",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "authors": [
     {
-      "name": "Adnan Mula",
+      "name": "Adnan Alfonso Mula Bakkar",
       "email": "adnan.mula.bakkar@gmail.com"
     }
   ],
   "require": {
-    "php": ">=7.2",
+    "php": ">=7.0",
     "ext-curl":"*"
   },
   "autoload": {
